@@ -27,6 +27,7 @@
 
     <modules>
         <module>mongodb</module>
+        <module>json-web-token</module>
     </modules>
 
     <dependencies>
@@ -46,6 +47,13 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>23.0</version>
+        </dependency>
+
     </dependencies>
 
 
