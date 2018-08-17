@@ -29,6 +29,7 @@
         <module>mongodb</module>
         <module>json-web-token</module>
         <module>spring-security</module>
+        <module>cxf-webservice</module>
     </modules>
 
     <dependencies>
