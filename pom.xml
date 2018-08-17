@@ -28,6 +28,7 @@
     <modules>
         <module>mongodb</module>
         <module>json-web-token</module>
+        <module>spring-security</module>
     </modules>
 
     <dependencies>
