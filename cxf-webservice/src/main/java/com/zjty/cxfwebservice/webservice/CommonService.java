@@ -12,7 +12,7 @@ import javax.jws.WebService;
  * @author leftso
  */
 @WebService(name = "CommonService", // 暴露服务名称
-        targetNamespace = "http://webservice.zjty.com/"// 命名空间,一般是接口的包名倒序
+        targetNamespace = "http://spring.io/guides/gs-producing-web-service/"// 命名空间,一般是接口的包名倒序
 )
 public interface CommonService {
     @WebMethod

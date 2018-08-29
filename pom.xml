@@ -30,6 +30,7 @@
         <module>json-web-token</module>
         <module>spring-security</module>
         <module>cxf-webservice</module>
+        <module>spring-boot-sharding-jdbc</module>
     </modules>
 
     <dependencies>

@@ -51,7 +51,7 @@ public class CxfClient {
     public static void cl2() {
         // 创建动态客户端
         JaxWsDynamicClientFactory dcf = JaxWsDynamicClientFactory.newInstance();
-        Client client = dcf.createClient("http://localhost:8080/services/CommonService?wsdl");
+        Client client = dcf.createClient("http://localhost:8080/ws/countries.wsdl");
         // 需要密码的情况需要加上用户名和密码
         // client.getOutInterceptors().add(new ClientLoginInterceptor(USER_NAME,
         // PASS_WORD));
@@ -60,7 +60,7 @@ public class CxfClient {
         try {
             // invoke("方法名",参数1,参数2,参数3....);
 
-            objects = client.invoke("sayHello", "Leftso");
+            objects = client.invoke("getCountry", "Poland");
             System.out.println("返回数据:" + objects[0]);
             log.info("{}",client.getEndpoint().getService());
         } catch (java.lang.Exception e) {

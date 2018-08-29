@@ -17,3 +17,10 @@
 - Basic Authentication Filter
 - Exception Translation Filter 处理spring security异常
 - Filter Security Interceptor
+
+用户信息获取逻辑 实现 userDetailService interface
+处理用户校验逻辑
+处理密码加密逻辑
+
+### sharding jdbc
+一款开源的分库分表数据库中间件
